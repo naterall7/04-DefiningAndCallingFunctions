@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #   First, let's define a function. Below this _TODO_, define a function named
 #       hello()
 #   that greets the user. It can say something like
@@ -9,8 +9,12 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+def hello():
+    hresponse = "Hello! What a beautiful day we're having! *starts coughing uncontrollably* Oh- *coughs some more* no- *the coughing turns increasingly more violent* my tuberculo- *unholy amount of coughing*"
+    print(hresponse)
+
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
 #   Now, we need to tell that function to run (in other words, tell it to do
 #   what we have defined it to do).
 #
@@ -21,8 +25,10 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+hello()
+
 ###############################################################################
-# TODO: 3. (3 pts)
+# DONE: 3. (3 pts)
 #   Now, for practice, let's do that again!
 #
 #   Define a function called
@@ -33,3 +39,7 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def goodbye():
+    gresponse = "*Windows shutting down noise*"
+    print(gresponse)
+goodbye()
